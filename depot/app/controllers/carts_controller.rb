@@ -11,6 +11,7 @@ class CartsController < ApplicationController
   # GET /carts/1
   # GET /carts/1.json
   def show
+    #@cart = Cart.find_by(:cart_id)  this fucked up the carts view
   end
 
   # GET /carts/new
